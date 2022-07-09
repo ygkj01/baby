@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="index.css" />
+  <title>Sign in to GitHub 丨 github</title>
+  <link rel="icon" class="js-site-favicon" type="image/svg+xml"
+    href="https://github.githubassets.com/favicons/favicon.svg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <style>
+    html,
+    body,
+    .yemian {
+      height: 100%;
+      width: 100%;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+        Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+
+    .logo,
+    .log,
+    .footer,
+    .about {
+      display: flex;
+    }
+
+    .logo {
+      flex-direction: column;
+      align-items: center;
+      padding: 32px 0 24px 0;
+    }
+
+    .about {
+
+      justify-content: center;
+
+    }
+
+    .about-content {
+
+      border: 1px solid black;
+      padding: 16px;
+      margin: 16px 0 10px 0;
+      border-radius: 6px;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .footer {
+      padding: 40px;
+      margin-top: 40px;
+      justify-content: center;
+    }
+
+    .footer-content {
+      width: 308px;
+      display: flex;
+      justify-content: space-around;
+      font-size: 12px;
+    }
+
+    .log {
+      justify-content: center;
+      font-size: 14px;
+      margin: 30px;
+    }
+
+    .log-content {
+      padding: 16px;
+      width: 308px;
+      border: 1px solid #afb8c1;
+      border-radius: 6px;
+      background-color: #f6f8fa;
+    }
+
+    .pass-msg {
+      margin-top: 16px;
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .a{
+      font-size: 12px;
+    }
+
+
+    .write {
+      margin-bottom: 8px;
+    }
+
+
+
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="yemian">
+    <div class="logo">
+      <svg height="48" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="48" data-view-component="true"
+        class="octicon octicon-mark-github">
+        <path fill-rule="evenodd"
+          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+        </path>
+      </svg>
+      <h2>Sign in to GitHub</h2>
+    </div>
+    <div class="log">
+      <div class="log-content">
+        <div class="write">Username or email address</div>
+        <div class="input-group-sm mb-3">
+          <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1" />
+        </div>
+        <div class="pass-msg">
+          <span>Password</span>
+          <a href="https://github.com/password_reset">Forgot password?</a>
+        </div>
+        <div class="input-group-sm mb-3">
+          <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1" />
+        </div>
+        <div class="d-grid gap-2">
+          <button class="btn btn btn-success" type="button">Sign in</button>
+        </div>
+      </div>
+
+    </div>
+    <div class="about">
+      <div class="about-content">New to GitHub?<a href="https://github.com/signup?source=login">Create an account.</a>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-content">
+        <div><a href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service">Terms</a></div>
+        <div><a href="https://github.com/security">Privacy</a> </div>
+        <div><a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">ecurity</a>
+        </div>
+        <div> Contact GitHub</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
